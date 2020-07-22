@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var N=0;
+        do {
+	    numero1 = prompt("Dime un número del 2 al 10");
+        } while(numero1<2 || numero1>=10);
+            if(numero1>2 && numero1<10){
+                for(var i=0;i<=10; i++){
+                    document.write( numero1*i +'<br>');
+                }
+            }
+        
+        numero2 = prompt("Ingrese el valor a calcular");
+            for(var i=1; i<=numero2;i++){
+            if(i % 2 == 0) {
+                document.write( "Es par" +i +'<br>');
+            }
+            else {
+                document.write( "Es impar" +i +'<br>');
+            }
+        }
+            
+    </script>
+</body>
+</html>
